@@ -24,10 +24,20 @@ body {
   display: grid;
   grid-template-columns: 100%;
   min-width: 345px;
-  gap: 16px;
+  gap: 32px;
   padding: 16px;
   box-shadow: 40px 40px 60px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
+}
+
+.form--large-padding {
+  padding: 32px;
+}
+
+.form__box {
+  display: grid;
+  grid-template-columns: 100%;
+  gap: 16px;
 }
 
 .form__row {
@@ -47,6 +57,16 @@ body {
 .form__text {
   font-family: "Roboto Condensed", sans-serif;
   color: #5a5761;
+  text-align: center;
+}
+
+.form__title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -0.02em;
+  color: #130f1c;
 }
 
 .form__line {
