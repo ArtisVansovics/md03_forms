@@ -2,6 +2,8 @@
 
 @import "cssReset.scss";
 
+@import "switch.scss";
+
 body {
   background: #fafafa;
   font-family: "Roboto Condensed", sans-serif;
@@ -48,14 +50,4 @@ body {
 
 ::placeholder {
   color: #bab9bd;
-}
-
-.line {
-  width: 100%;
-}
-
-.container {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  max-width: 875px;
 }
