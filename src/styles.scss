@@ -23,3 +23,9 @@ body {
 .line {
   width: 100%;
 }
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  max-width: 875px;
+}
