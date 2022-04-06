@@ -14,7 +14,7 @@
   <body>
     <div class="wrapper">
       <!-- First form -->
-      <form class="form" autocomplete="on">
+      <form class="form form--compact" autocomplete="on">
         <div class="form__box">
           <label class="label">
             Email
@@ -68,7 +68,7 @@
         </div>
       </form>
       <!-- Second form -->
-      <form class="form form--large-padding" autocomplete="on">
+      <form class="form" autocomplete="on">
         <h1 class="form__title">Contact Us</h1>
         <div class="form__box">
           <label class="label">
@@ -110,12 +110,10 @@
               required
             />
           </label>
-          <label class="label">
-            <input
-              type="checkbox"
-              required
-            />
+          <label class="checkbox-box">
+            <input type="checkbox" checked/>
             Subscribe to News
+            <span class="checkbox-box__checkmark"></span>
           </label>
           <label class="label">
             Message
@@ -127,7 +125,7 @@
             ></textarea>
           </label>
         </div>
-        <button>
+        <button class="btn">
           Submit
         </button>
       </form>

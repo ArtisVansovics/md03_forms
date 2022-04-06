@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Roboto+Condensed&family=Roboto:wght@400;500&display=swap");
 
-@import "cssReset.scss", "switch.scss", "buttons.scss";
+@import "cssReset.scss", "switch.scss", "buttons.scss", "checkbox.scss";
 
 body {
   background: #fafafa;
@@ -25,13 +25,13 @@ body {
   grid-template-columns: 100%;
   min-width: 345px;
   gap: 32px;
-  padding: 16px;
+  padding: 32px;
   box-shadow: 40px 40px 60px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
 }
 
-.form--large-padding {
-  padding: 32px;
+.form--compact {
+  padding: 16px;
 }
 
 .form__box {
