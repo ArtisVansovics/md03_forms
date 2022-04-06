@@ -70,7 +70,7 @@
       <!-- Second form -->
       <form class="form" autocomplete="on">
         <h2 class="form__title">Contact Us</h2>
-        <div class="form__box">
+        <div class="form__box form__box--fluid">
           <label class="label">
             Name
             <input
@@ -110,6 +110,8 @@
               required
             />
           </label>
+        </div>
+        <div class="form__box">
           <label class="checkbox-box">
             <input type="checkbox" checked/>
             Subscribe to News
@@ -127,13 +129,13 @@
             ></textarea>
           </label>
         </div>
-        <button class="btn">
+        <button class="btn btn--fluid">
           Submit
         </button>
       </form>
       <!-- Third form -->
-        <form class="form" autocomplete="on"> <!-- class="form form--info" -->
-          <div hidden class="form--info__sidebar">
+        <form class="form form--info" autocomplete="on"> <!-- class="form form--info" -->
+          <div class="form--info__sidebar">
             <div class="form__box form__box--large-gap">
               <h5 class="form__title form__title--small form__title--white">Contact Information</h5>
               <p class="form__text form__text--white">
@@ -156,7 +158,7 @@
             </div>
             </div>
           <h2 class="form__title">Contact Us</h2>
-          <div class="form__box">
+          <div class="form__box form__box--fluid">
             <label class="label">
               Name
               <input
@@ -197,7 +199,7 @@
               </select>
             </label>
           </div>
-          <div class="form__box"> <!-- class="form__box form__box--two-col" -->
+          <div class="form__box">
             <label class="label">
               Number
               <input
@@ -217,22 +219,23 @@
                 maxlength="100"
                 rows="5"
                 required
-              ></textarea>
+              >
+              </textarea>
             </label>
           </div>
-          <button class="btn">
+          <button class="btn btn--fluid">
             Submit
           </button>
         </form>
       <!-- Fourth form -->
       <form class="form form--medium" autocomplete="on">
         <h2 class="form__title">Checkout</h2>
-        <div class="form__box form__box--large-gap">
+        <div class="form__box form__box--large-gap form__box--fluid">
           <div class="form__box">
             <h4 class="form__title form__title--medium">Your Order</h4>
             <div class="form__box form__box--compact form__box--padding">
               <p class="form__text form__text--dark">Eggshell Plant Pot</p>
-              <div class="form__box form__box--uneven-col">
+              <div class="form__box form__box--order-info">
                 <p class="form__text form__text--compact">Size: Medium</p>
                 <p class="form__text form__text--compact">Qty: 1</p>
                 <p class="form__text form__text--compact">$25.00</p>
@@ -262,7 +265,7 @@
         </div>
         <div class="form__box">
           <h5 class="form__title form__title--small">Payment Method</h5>
-          <div class="form__box form__box--small-gap">
+          <div class="form__box form__box--small-gap form__box--fluid">
             <label class="label">
               Pay with:
               <select class="select" required>
@@ -296,7 +299,7 @@
             </div>
           </div>
         </div>
-        <button class="btn">
+        <button class="btn btn--fluid">
           Continue
         </button>
       </form>

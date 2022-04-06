@@ -3,4 +3,43 @@
   .form--medium {
     padding: 32px;
   }
+
+  .form__box--fluid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .form--info {
+    grid-template-columns: 185px 2fr;
+    grid-template-rows: auto auto auto auto;
+    grid-auto-flow: column;
+    padding: 32px 16px;
+  }
+
+  .form--info__sidebar {
+    display: grid;
+  }
+
+  .form__box--fluid .form__line {
+    display: none;
+  }
+
+  .form__box--order-info {
+    grid-template-columns: 100%;
+    gap: 4px;
+  }
+
+  .form__title--small {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .form__text--dark {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .btn--fluid {
+    max-width: 155px;
+    justify-self: end;
+  }
 }
