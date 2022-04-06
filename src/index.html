@@ -225,64 +225,78 @@
           </button>
         </form>
       <!-- Fourth form -->
-      <form class="form" autocomplete="on">
+      <form class="form form--medium" autocomplete="on">
         <h2 class="form__title">Checkout</h2>
-        <div class="form__subsection">
-          <div class="form__details">
-            <h2 class="form__title form__title--medium">Your Order</h2>
-            <div class="form__info">
-              <h3 class="form__title form__title--small">Eggshell Plant Pot</h3>
-              <p class="form__text">Size: Medium</p>
-              <p class="form__text">Qty: 1</p>
-              <p class="form__text">$25.00</p>
+        <div class="form__box form__box--large-gap">
+          <div class="form__box">
+            <h4 class="form__title form__title--medium">Your Order</h4>
+            <div class="form__box form__box--compact">
+              <p class="form__text form__text--dark">Eggshell Plant Pot</p>
+              <div class="form__box form__box--three-col">
+                <p class="form__text form__text--compact">Size: Medium</p>
+                <p class="form__text form__text--compact">Qty: 1</p>
+                <p class="form__text form__text--compact">$25.00</p>
+              </div>
             </div>
           </div>
-          <div class="form__details">
-            <h2 class="form__title form__title--medium">Delivery Details</h2>
-            <div class="form__info">
-              <h3 class="form__title form__title--small">Adam Sandler</h3>
-              <p class="form__text">1234 Fake St</p>
-              <p class="form__text">Milwaukee, WI 53203</p>
-            </div>
-            <div class="form__info">
-              <h3 class="form__title form__title--small">Shipping Speed</h3>
-              <p class="form__text">$7.00 No Rush Shipping</p>
-              <p class="form__text">Arrives by 1/16/22</p>
+          <hr class="form__line">
+          <div class="form__box">
+            <h5 class="form__title form__title--small">Delivery Details</h5>
+            <div class="form__box form__box--two-col">
+              <div class="form__info">
+                <p class="form__text form__text--compact form__text--dark">
+                  Adam Sandler
+                </p>
+                <p class="form__text form__text--compact">1234 Fake St</p>
+                <p class="form__text form__text--compact">Milwaukee, WI 53203</p>
+              </div>
+              <div class="form__info">
+                <p class="form__text form__text--compact form__text--dark">
+                  Shipping Speed
+                </p>
+                <p class="form__text form__text--compact">$7.00 No Rush Shipping</p>
+                <p class="form__text form__text--compact">Arrives by 1/16/22</p>
+              </div>
             </div>
           </div>
         </div>
-        <div class="form__row form__row--3">
-          <label class="label">
-            Pay with:
-            <select class="select" required>
-              <option value="new">Mastercard</option>
-              <option value="existing">Visa</option>
-              <option value="existing">PayPal</option>
-            </select>
-          </label>
-          <label class="label">
-            Age
-            <input
-              type="number"
-              class="input"
-              placeholder="Your Age"
-              min="16"
-              max="99"
-              required
-            />
+        <div class="form__box">
+          <h5 class="form__title form__title--small">Payment Method</h5>
+          <div class="form__box form__box--small-gap">
             <label class="label">
-              Country
-              <input
-                type="text"
-                class="input"
-                placeholder="Your Country"
-                minlength="4"
-                required
-              />
+              Pay with:
+              <select class="select" required>
+                <option value="new">Mastercard</option>
+                <option value="existing">Visa</option>
+                <option value="existing">PayPal</option>
+              </select>
             </label>
-          </label>
+            <div class="form__box form__box--small-gap form__box--two-col">
+              <label class="label">
+                Age
+                <input
+                  type="number"
+                  class="input"
+                  placeholder="Your Age"
+                  min="16"
+                  max="99"
+                  required
+                />
+              </label>
+              <label class="label">
+                Country
+                <input
+                  type="text"
+                  class="input"
+                  placeholder="Your Country"
+                  minlength="4"
+                  required
+                />
+              </label>
+            </div>
+          </div>
         </div>
-        <button>
+        <button class="btn">
           Continue
         </button>
       </form>
