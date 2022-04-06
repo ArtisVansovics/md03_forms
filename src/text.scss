@@ -1,0 +1,55 @@
+.form__text {
+  color: #5a5761;
+}
+
+.form__text--compact {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.form__text--centered {
+  text-align: center;
+}
+
+.form__text--white {
+  color: #ffffff;
+}
+
+.form__text--dark {
+  color: #130f1c;
+}
+
+.form__title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -0.02em;
+  color: #130f1c;
+  justify-self: flex-start;
+}
+
+.form__title--medium {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.form__title--small {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.form__title--white {
+  color: #ffffff;
+}
+
+.form__link {
+  text-decoration-line: underline;
+  color: #651fff;
+}
+
+.form__link:hover {
+  color: #fd7918;
+}

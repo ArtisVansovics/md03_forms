@@ -1,0 +1,36 @@
+.label {
+  display: grid;
+  grid-template-columns: 100%;
+  gap: 4px;
+  color: #130f1c;
+}
+
+.label--textarea {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.input {
+  background-color: #fafafa;
+  width: 100%;
+  display: inline-block;
+  padding: 12px;
+  border-radius: 5px;
+  border: none;
+}
+
+.textarea {
+  background-color: #f3f3f5;
+  width: 100%;
+  display: inline-block;
+  padding: 8px 14px 8px 12px;
+  border-radius: 5px;
+  border: none;
+  font-size: 14px;
+  line-height: 20px;
+  resize: block;
+}
+
+::placeholder {
+  color: #bab9bd;
+}
