@@ -58,7 +58,6 @@
 
 .form__box--large-gap {
   gap: 32px;
-  align-items: center;
 }
 
 .form__box--two-col {
@@ -84,35 +83,17 @@
   padding-right: 75px;
 }
 
-.form__info:nth-child(2) {
+.form__box--centered {
+  justify-items: center;
+}
+
+.form__checkout-text:nth-child(2) {
   justify-self: flex-end;
 }
 
-.form__row {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 16px;
-}
-
-.form__row--small {
+.form__box--icon-text {
   grid-template-columns: 20px 1fr;
   gap: 8px;
-}
-
-.form__col {
-  display: flex;
-  flex-flow: column;
-  width: 100%;
-  gap: 32px;
-  align-items: center;
-}
-
-.form__col--compact {
-  gap: 0;
-}
-
-.form__col--left-align {
-  align-items: flex-start;
 }
 
 .form__line {
