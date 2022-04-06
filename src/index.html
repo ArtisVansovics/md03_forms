@@ -52,7 +52,7 @@
           <hr class="form__line">
         </div>
         <div class="form__box">
-          <p class="form__text">or continue with</p>
+          <p class="form__text form__text--centered">or continue with</p>
           <div class="form__row">
             <button class="btn btn--white">
               <svg class="btn__icon" xmlns="http://www.w3.org/2000/svg">
@@ -69,7 +69,7 @@
       </form>
       <!-- Second form -->
       <form class="form" autocomplete="on">
-        <h1 class="form__title">Contact Us</h1>
+        <h2 class="form__title">Contact Us</h2>
         <div class="form__box">
           <label class="label">
             Name
@@ -132,18 +132,31 @@
         </button>
       </form>
       <!-- Third form -->
-        <form class="form form--with-info" autocomplete="on">
-            <div class="container__info">
-              <h3 class="container__title">Contact Information</h3>
-              <p class="container__text">
+        <form class="form" autocomplete="on"> <!-- class="form form--info" -->
+          <div hidden class="form--info__sidebar">
+            <div class="form__col form__col--left-align">
+              <h5 class="form__title form__title--small form__title--white">Contact Information</h5>
+              <p class="form__text form__text--white">
                 Here’s some additional support text to help set user expectations.
               </p>
-              <div>
-                <p class="container__text">123-456-7890</p>
-                <p class="container__text">support@minerva.com</p>
+              <div class="form__box">
+                <div class="form__row form__row--small">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: rgba(255, 255, 255, 1)">
+                    <path d="M17.707 12.293a.999.999 0 0 0-1.414 0l-1.594 1.594c-.739-.22-2.118-.72-2.992-1.594s-1.374-2.253-1.594-2.992l1.594-1.594a.999.999 0 0 0 0-1.414l-4-4a.999.999 0 0 0-1.414 0L3.581 5.005c-.38.38-.594.902-.586 1.435.023 1.424.4 6.37 4.298 10.268s8.844 4.274 10.269 4.298h.028c.528 0 1.027-.208 1.405-.586l2.712-2.712a.999.999 0 0 0 0-1.414l-4-4.001zm-.127 6.712c-1.248-.021-5.518-.356-8.873-3.712-3.366-3.366-3.692-7.651-3.712-8.874L7 4.414 9.586 7 8.293 8.293a1 1 0 0 0-.272.912c.024.115.611 2.842 2.271 4.502s4.387 2.247 4.502 2.271a.991.991 0 0 0 .912-.271L17 14.414 19.586 17l-2.006 2.005z"></path>
+                  </svg>
+                  <p class="form__text form__text--white">123-456-7890</p>
+                </div>
+                <div class="form__row form__row--small">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: rgba(255, 255, 255, 1)">
+                    <path d="M20 4H4c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zm0 2v.511l-8 6.223-8-6.222V6h16zM4 18V9.044l7.386 5.745a.994.994 0 0 0 1.228 0L20 9.044 20.002 18H4z"></path>
+                  </svg>
+                  <p class="form__text form__text--white">support@minerva.com</p>
+                </div>
               </div>
             </div>
-            <h1 class="form__title">Contact Us</h1>
+            </div>
+          <h2 class="form__title">Contact Us</h2>
+          <div class="form__box">
             <label class="label">
               Name
               <input
@@ -183,6 +196,8 @@
                 <option value="existing">an existing client</option>
               </select>
             </label>
+          </div> <!-- class="form__box form__box--two-col" -->
+          <div class="form__box">
             <label class="label">
               Number
               <input
@@ -193,22 +208,25 @@
                 required
               />
             </label>
-            <label class="label">
+            <label class="label label--textarea">
               Message
               <textarea
                 class="textarea"
-                placeholder="Enter Message"
-                minlength="10"
+                placeholder="Type Message"
+                minlength="15"
+                maxlength="100"
+                rows="5"
                 required
               ></textarea>
             </label>
-            <button>
-              Submit
-            </button>
-          </form>
+          </div>
+          <button class="btn">
+            Submit
+          </button>
+        </form>
       <!-- Fourth form -->
       <form class="form" autocomplete="on">
-        <h1 class="form__title">Checkout</h1>
+        <h2 class="form__title">Checkout</h2>
         <div class="form__subsection">
           <div class="form__details">
             <h2 class="form__title form__title--medium">Your Order</h2>
