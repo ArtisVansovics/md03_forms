@@ -58,16 +58,11 @@
 }
 
 .form__box--two-col {
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: auto auto;
 }
 
 .form__box--small-col {
   grid-template-columns: 150px 150px;
-}
-
-.form__box--three-col {
-  grid-template-columns: 1fr 1fr 1fr;
-  justify-items: center;
 }
 
 .form__box--order-info {
