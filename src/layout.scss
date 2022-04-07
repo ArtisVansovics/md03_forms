@@ -76,8 +76,7 @@
 }
 
 .form__box--padding {
-  padding-left: 60px;
-  padding-right: 75px;
+  grid-template-columns: 60px 1fr 60px;
 }
 
 .form__box--centered {
